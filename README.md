@@ -8,3 +8,18 @@ The repository includes detailed experimental setup, code implementations, data 
   - pip
   - pandas
 
+## Experiment 1: Zero Queuing Delay
+To run this experiment, execute: `./test --part1`
+
+
+## Experiment 2: Maximum Bandwidth
+To run this experiment, execute: `./test --part2`
+
+## Experiment 3: Latency Trade-off
+To run this experiment, execute: `./test --part3`
+
+## Experiment 4: Cache Miss Ratio Performance
+To run this experiment, execute: `./test --part4`
+
+## Experiment 5: TLB Miss Ratio Performance
+To run this experiment, execute: `./test --part5`
