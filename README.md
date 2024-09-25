@@ -10,7 +10,9 @@ The repository includes detailed experimental setup, code implementations, data 
 
 ## Experiment 1: Zero Queuing Delay
 To run this experiment, execute: `./test --part1`
-
+<p align="center">
+  <img src="zeroqueingdelay/CacheVsMainMemory.png" alt="CacheVsMainMemory graph" />
+</p>
 
 ## Experiment 2: Maximum Bandwidth
 To run this experiment, execute: `./test --part2`
