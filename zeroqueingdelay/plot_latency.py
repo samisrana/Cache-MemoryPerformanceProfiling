@@ -39,7 +39,7 @@ with open('perf_data.csv', 'r') as file:
             
             # Calculate cache write latency
             cache_write_latency = cpu_cycles / l1_stores
-            print(f"Cache Write Latency: {cache_write_latency} cycles")
+            #print(f"Cache Write Latency: {cache_write_latency} cycles")
 
 # Check if any latency values are ok 
 if None in [cache_read_latency, cache_write_latency, main_memory_read_latency, main_memory_write_latency]:
