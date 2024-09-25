@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Sets script to exit on any error, treat unset variables as errors, and return exit status
+set -euo pipefail
+
 # Compile C program
 gcc -o mainmem_readwrite_ratio mainmem_readwrite_ratio.c
 
