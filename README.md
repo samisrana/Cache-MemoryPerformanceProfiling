@@ -100,10 +100,11 @@ The line on the graph starts at the origin (0,0) and increases in a nonlinear fa
 
 #### Queuing Theory Prediction
 - **Queuing Theory**: Studies the concept of a "waiting structure" or queues, predicting that as more tasks are queued for processing by the memory (higher throughput), each individual task will experience longer delays (higher latency).
+- **Trade-Off**: The graph visually represents this trade-off, aligning with queuing theory’s predictions about system performance under different load conditions.
+
 <p align="center">
   <img src="otherimages/Queueingtheorydiagram.png" alt="queueing theory diagram" />
 </p>
-- **Trade-Off**: The graph visually represents this trade-off, aligning with queuing theory’s predictions about system performance under different load conditions.
 
 #### Key Takeaways
 - **Higher Throughput, Higher Latency**: As throughput size increases, latency increases nonlinearly, indicating that the system becomes less efficient at handling larger amounts of data.
