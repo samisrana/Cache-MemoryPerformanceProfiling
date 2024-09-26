@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h> // Include for sysconf
+#include <unistd.h> 
 
 size_t get_main_memory_size() {
-    // You can use sysconf to get the total size of physical memory
+    // use sysconf to get the total size of physical memory
     long size = sysconf(_SC_PHYS_PAGES) * sysconf(_SC_PAGE_SIZE);
     
     if (size == -1) {
@@ -39,7 +39,7 @@ int main() {
     printf("Main Memory Size: %zu bytes\n", main_memory_size);
 
     // Allocate a large memory size that exceeds L1 cache size
-    // Let's allocate 2 times the size of L1 cache for this example
+    // allocate 2 times the size of L1 cache 
     size_t allocation_size = 2 * (main_memory_size / 10);  // Adjust size as needed
     int* array_main_memory = malloc(allocation_size);  // Allocate data that resides in main memory
 
