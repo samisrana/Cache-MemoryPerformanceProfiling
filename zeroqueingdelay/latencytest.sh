@@ -5,6 +5,7 @@ set -euo pipefail
 
 # compile code
 gcc -g cpu2cache.c -o cache_test
+gcc -g cpu2mainmemory.c -o main_memory_test
 
 # data file
 output_file="perf_data.csv"

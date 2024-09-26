@@ -3,7 +3,7 @@
 #Sets script to exit on any error, treat unset variables as errors, and return exit status
 set -euo pipefail
 
-# Compile C program
+# Compile C programs
 gcc -o mainmem_readwrite_ratio mainmem_readwrite_ratio.c
 
 # Array of block sizes (in bytes)
