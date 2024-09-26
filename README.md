@@ -17,11 +17,27 @@ To run this experiment, execute: `./test --part1`
 ## Experiment 2: Maximum Bandwidth
 To run this experiment, execute: `./test --part2`
 
+<p align="center">
+  <img src="maximumbandwidth/heatmap.png" alt="Bandwidth Data granularity heatmap" />
+</p>
+
 ## Experiment 3: Latency Trade-off
 To run this experiment, execute: `./test --part3`
 
+<p align="center">
+  <img src="latencytradeoff/latency_graph.png" alt="latency vs throughput data" />
+</p>
+
 ## Experiment 4: Cache Miss Ratio Performance
 To run this experiment, execute: `./test --part4`
+<p align="center">
+  <img src="cache-TLBmissratioperformance/cache_misses_vs_execution_time.png" alt="experiment 4 graph" />
+</p>
 
 ## Experiment 5: TLB Miss Ratio Performance
 To run this experiment, execute: `./test --part5`
+
+<p align="center">
+  <img src="cache-TLBmissratioperformance/tlb_misses_vs_execution_time.png" alt="experiment 5 graph" />
+</p>
+
