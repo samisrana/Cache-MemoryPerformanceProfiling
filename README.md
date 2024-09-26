@@ -1,12 +1,22 @@
 # Cache-MemoryPerformanceProfiling
 This repository includes detailed experimental setups, code implementations, data analysis, and visualization of results. This project aims to provide valuable insights into the performance characteristics of modern computer systems and the factors that influence memory access efficiency.
 
+## Table of Contents
+1. [Dependencies](#dependencies)
+2. [Experiments Overview](#experiments-overview)
+   - [Experiment 1: Zero Queuing Delay](#experiment-1-zero-queuing-delay)
+   - [Experiment 2: Maximum Bandwidth](#experiment-2-maximum-bandwidth)
+   - [Experiment 3: Latency Trade-off](#experiment-3-latency-trade-off)
+   - [Experiment 4: Cache Miss Ratio Performance](#experiment-4-cache-miss-ratio-performance)
+   - [Experiment 5: TLB Miss Ratio Performance](#experiment-5-tlb-miss-ratio-performance)
+
 ## Dependencies
-- **perf**: For collecting data on system performance to reflect an approximation of real-time behavior.
+- **perf**: For collecting system performance data to approximate real-time behavior.
 - **Python**: For parsing and plotting data.
-  - matplotlib
-  - pip
-  - pandas
+  - `matplotlib`
+  - `pandas`
+
+## Experiments Overview
 
 ## Experiment 1: Zero Queuing Delay
 To run this experiment, execute: `./test --part1`
