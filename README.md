@@ -67,7 +67,7 @@ Each cell within the heatmap is color-coded to represent the level of bandwidth 
 - **Lighter colors** represent lower bandwidths.
 
 #### Numerical Values
-Numerical values within each cell specify the exact bandwidth measurement in gigabytes per second (GB/s).
+Numerical values within each cell specify the exact bandwidth measurement in bytes per second (B/s).
 
 #### Interpretation
 - **Read-Only vs. Write-Only**: Compare bandwidth for read-only and write-only operations across different block sizes.
@@ -100,6 +100,9 @@ The line on the graph starts at the origin (0,0) and increases in a nonlinear fa
 
 #### Queuing Theory Prediction
 - **Queuing Theory**: Studies the concept of a "waiting structure" or queues, predicting that as more tasks are queued for processing by the memory (higher throughput), each individual task will experience longer delays (higher latency).
+<p align="center">
+  <img src="otherimages/Queueingtheorydiagram.png" alt="queueing theory diagram" />
+</p>
 - **Trade-Off**: The graph visually represents this trade-off, aligning with queuing theory’s predictions about system performance under different load conditions.
 
 #### Key Takeaways
