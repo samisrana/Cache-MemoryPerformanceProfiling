@@ -19,7 +19,7 @@ This repository includes detailed experimental setups, code implementations, dat
 ## Experiments Overview
 
 ## Experiment 1: Zero Queuing Delay
-To run this experiment, execute: `./test --part1`
+To run this experiment, execute: `./test.sh --part1`
 This will generate a graph that will look like:
 <p align="center">
   <img src="zeroqueingdelay/CacheVsMainMemory.png" alt="CacheVsMainMemory graph" />
@@ -40,7 +40,7 @@ The graph displays the read and write latencies for cache and main memory when t
 - **Performance Optimization**: Optimizing data access patterns is essential to maximize cache usage and minimize main memory access, improving overall system performance.
 
 ## Experiment 2: Maximum Bandwidth
-To run this experiment, execute: `./test --part2`
+To run this experiment, execute: `./test.sh --part2`
 This will generate a graph that will look like:
 <p align="center">
   <img src="maximumbandwidth/heatmap.png" alt="Bandwidth Data granularity heatmap" />
@@ -82,7 +82,7 @@ Numerical values within each cell specify the exact bandwidth measurement in byt
 This visualization provides a clear comparison of how memory performance can vary based on block size and operation type, allowing for quick identification of optimal configurations for desired performance outcomes.
 
 ## Experiment 3: Latency Trade-off
-To run this experiment, execute: `./test --part3`
+To run this experiment, execute: `./test.sh --part3`
 This will generate a graph that will look like:
 <p align="center">
   <img src="latencytradeoff/latency_graph.png" alt="latency vs throughput data" />
@@ -111,7 +111,7 @@ The line on the graph starts at the origin (0,0) and increases in a nonlinear fa
 - **Performance Optimization**: Understanding this trade-off is crucial for optimizing system performance, highlighting the importance of balancing throughput and latency.
 
 ## Experiment 4: Cache Miss Ratio Performance
-To run this experiment, execute: `./test --part4`
+To run this experiment, execute: `./test.sh --part4`
 This will generate a graph that will look like:
 <p align="center">
   <img src="cache-TLBmissratioperformance/cache_misses_vs_execution_time.png" alt="experiment 4 graph" />
@@ -133,7 +133,7 @@ The scatter plot shows the relationship between L1 DCache Load Misses and Execut
 This graph demonstrates how cache performance impacts execution time in a computer system.
 
 ## Experiment 5: TLB Miss Ratio Performance
-To run this experiment, execute: `./test --part5`
+To run this experiment, execute: `./test.sh --part5`
 This will generate a graph that will look like:
 <p align="center">
   <img src="cache-TLBmissratioperformance/tlb_misses_vs_execution_time.png" alt="experiment 5 graph" />
